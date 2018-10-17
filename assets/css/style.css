@@ -1,0 +1,182 @@
+.navbar{
+    padding: 5px 2px;
+    background-color: #fff;
+    border-bottom: solid 1px #000;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 5px 25px grey;
+
+}
+.logo-utama {
+    width: 130px;
+    height: 85px;
+    padding:7px;
+}
+.menu{
+    margin-top: 60px;
+    list-style-type: none;
+    float: right;
+}
+
+.menu > li{
+    display: inline-block;
+}
+.menu > li > a{
+    padding: 10px;
+    color: #000000;
+}
+.menu li:hover > ul {
+    display: block;  
+}
+.menu .submenu {
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 70;
+    display: none;
+    z-index: 1;
+}
+.menu-utama ul ul li {
+    float: none;
+    border-top: 1px solid #def4ff;
+    border-bottom: 1px solid #def4ff;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.submenu{
+    background: #b1b1b1;
+    padding:10px;
+}
+
+.submenu > li{
+    display: block;
+}
+.submenu > li >a{
+    padding:20px;
+    
+}
+.nama-ormawa{
+    background-color: #eeeeee;
+    height: 500px;
+    padding-top: 5px ; 
+    justify-content: center;
+    display: flex; 
+    align-items: center;
+   
+}
+
+.gambar-ormawa{
+    margin-top: 35px;
+    padding: 10px 45px;
+    background-color: #eeeeee6b;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+.bem-bpm{
+    display: flex;
+    justify-content: center;
+
+}
+.bem{
+    margin-top: 20px;
+    background-color: #eeeeee;
+    padding: 20px;
+    margin-right: 5px;
+    margin-left: 20px;
+    width: 50%;
+}
+.bpm{
+    margin-top: 20px;
+    background-color: #eeeeee;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+    width: 50%;
+}
+.bem > img{
+    display: block;
+    margin: 0 auto;
+}
+.bpm > img {
+    display: block;
+    margin: 0 auto;
+}
+.latar{
+    display: flex;
+    background-color: #1D0057;
+    color: #eeeeee;
+    padding: 20px 50px;
+    height: 250px;
+    
+}
+.space{
+    margin-top: 20px;
+    background-color: #B4B4E0;
+    height: 35px;
+}
+.latar > .kontak{
+width: 50%;
+font-weight: bold;
+}
+
+.latar > .kontak > h4{
+    margin-bottom: 25px;
+}
+.site-menu > h4{
+    margin-bottom: 25px;
+    }
+.latar > .kontak > p{
+padding: 5px;
+}
+.site-menu{
+    margin-left: 50px;
+}
+.site-menu p{
+    padding: 5px;
+}
+.bottom{
+    display: flex;
+    background-color: #000030;
+    padding: 20px;
+}
+.bottom > .copyright{
+    color: #eeeeee;
+    padding: 10px;
+}
+.ilkom {
+    margin-left: auto;
+    margin-right: 100px;
+    
+}
+.ilkom> ul > li{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px;
+}
+.ilkom > ul > li >a{
+    color: #fff;
+}
+.site-menu > p > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.logoo {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* Halaman apaitu */
+.img{
+    display: block;
+    margin: auto;
+}
+.gambar{
+    margin-top: 80px;
+}
